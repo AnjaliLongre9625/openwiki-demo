@@ -39,6 +39,9 @@ def test_modulo_by_zero(calculator: Calculator) -> None:
     with pytest.raises(CalculationError, match="Modulo by zero"):
         calculator.evaluate("10%0")
 
+def test_power():
+    calculator = Calculator()
+    assert calculator.evaluate("2 ** 3") == 8.0
 
 def test_invalid_expression(calculator: Calculator) -> None:
     with pytest.raises(

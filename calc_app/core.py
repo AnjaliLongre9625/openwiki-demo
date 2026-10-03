@@ -18,7 +18,7 @@ class Calculator:
         """Evaluate a math expression using a restricted AST.
 
         Supported operators:
-        - Binary: +, -, *, /, %
+        - Binary: +, -, *, /, %, **
         - Unary: +, -
         - Parentheses and numeric literals
         """
@@ -58,7 +58,7 @@ class Calculator:
             return -operand
 
         if isinstance(node, ast.BinOp) and isinstance(
-            node.op, (ast.Add, ast.Sub, ast.Mult, ast.Div, ast.Mod)
+            node.op, (ast.Add, ast.Sub, ast.Mult, ast.Div, ast.Mod, ast.Pow)
         ):
             left = self._eval_node(node.left)
             right = self._eval_node(node.right)
@@ -83,4 +83,6 @@ class Calculator:
             if right == 0:
                 raise CalculationError("Modulo by zero")
             return left % right
+        if isinstance(operator, ast.Pow):
+            return left ** right
         raise CalculationError("Unsupported operator")
