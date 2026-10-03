@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:1e8a450b210990db4dd677795ae76a7d98e1a995caa698a186918da43d7a9290",
+  "claims": [
+    {
+      "id": "claim_ac3460c6ff0543869c362f5dcfcdf101",
+      "statement": "The project uses pytest as its primary test framework, with unit tests located in the tests/ directory.",
+      "evidence": [
+        {
+          "resource": "repo://tests/test_core.py",
+          "version": "repo-file-v1:sha256:8cd3388a4feb06f1b9b806225902030219351ab8baed36ad68a3729d3117972a"
+        }
+      ]
+    },
+    {
+      "id": "claim_907e040986a24d3b98977f7df6018765",
+      "statement": "Running the command 'pytest' executes the full test suite.",
+      "evidence": [
+        {
+          "resource": "repo://README.md#L106-L106",
+          "version": "repo-lines-v1:sha256:8004a972c3d5c274d8c808e8d8afe03b9aca8af8eebf3df4298f114d8008b754:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiODAwNGE5NzJjM2Q1YzI3NGQ4YzgwOGU4ZDhhZmUwM2I5YWNhOGFmOGVlYmYzZGY0Mjk4ZjExNGQ4MDA4Yjc1NCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiODAwNGE5NzJjM2Q1YzI3NGQ4YzgwOGU4ZDhhZmUwM2I5YWNhOGFmOGVlYmYzZGY0Mjk4ZjExNGQ4MDA4Yjc1NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiOTgzZWZhODEwNWU4ZDJlMzE3ZmViZjRiMGQxOGMyMmM4MDEzMDVhZGRmZDhiMjE4NTE2ZGM1NTllZGM1MTBlMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiOGNjMzNkMzMwODljNGQwZjQxMzk1MzY4ZDM2M2JiZDcxZDU0MzVmYWUwZDExNGIzMmVlZGUxYjM1ZTcyM2IwOSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_799dbb1a0f2242d294e50f03d334a14f",
+      "statement": "Pytest fixtures are utilized to provide instances of the Calculator class to test functions.",
+      "evidence": [
+        {
+          "resource": "repo://tests/test_core.py#L8-L10",
+          "version": "repo-lines-v1:sha256:e8b0de1997294601319aa56b1410de7bc9a635b84e3a03f4eccae50bb3ba9ee9:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiM2ZiNjE1NWRjZWM1MGUwNDQ3NjJmYTYyZTZhZTY2NjE0NWYwM2ZiMTQ0Y2UwYjAzZGJkZjQ4NjJiNDI1Y2FjZCIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMmE4ZWU2ZmIxYmM4MTZiNTRkMzc2ZDk5ODRjZWFjYTA1ODdhNTBhNjMxMDMxYzdiNTc3YjcyODRjMTkzMWRjZCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiM2NmYmRkZjZhZDJmMjg4YjUyYWVjY2U4ODAyMWE5MjkyZjhkM2EyZmY4OTdiZmYzYmE1MTcwZTFjMTIwYWNmMiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZjQ4NWNlM2E3YjJkNzIyMTYzZGQ2NTIxMDFhY2QyOGIwNGI1NmQ4ZDY4Mjg5YTZhYTkyMTQzNTY2OTlmMjkwNiJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_725ac624376247a89b1a1394cc0bafbb",
+      "statement": "The application CLI and GUI can be invoked using module-based execution ('python -m calc_app.cli' or 'python -m calc_app.ui') for manual verification.",
+      "evidence": [
+        {
+          "resource": "repo://README.md#L87-L87",
+          "version": "repo-lines-v1:sha256:1866a089ae7271d01200fcdc5d3392a7448fbd3d6ddd7b61ed1d82f75c678daa:eyJzZWxlY3RlZExpbmVDb3VudCI6MSwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTg2NmEwODlhZTcyNzFkMDEyMDBmY2RjNWQzMzkyYTc0NDhmYmQzZDZkZGQ3YjYxZWQxZDgyZjc1YzY3OGRhYSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTg2NmEwODlhZTcyNzFkMDEyMDBmY2RjNWQzMzkyYTc0NDhmYmQzZDZkZGQ3YjYxZWQxZDgyZjc1YzY3OGRhYSIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiMDJhNGJhNWQ5ZmY3MGNlNWNlYWJlODJjMTEzOGE1ZjY0NmExMmNhMDlhNDcxM2U0OGUyMDMzOTlkMzc0MTMyNyIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiZDNmMzE5NjJkZGViZGMyOWE1ZTVkMDc3OWE0NTY2N2U4NWVjZWZiMDYzZGIzYWQ1NThkYTM1NTc1YmJjMmNmMyJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-03T13:32:55.612Z"
+  }
+}

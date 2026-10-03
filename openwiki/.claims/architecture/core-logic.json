@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:4d8e7c7aec3ac83033410011cd55f9c54a7d15794d74c96ddf43733ea00fabe0",
+  "claims": [
+    {
+      "id": "claim_894f1deefe8f4fe9aee981e631113684",
+      "statement": "The Calculator class provides a UI-agnostic engine that evaluates mathematical expressions by parsing them into a restricted Abstract Syntax Tree (AST) and recursively traversing the tree.",
+      "evidence": [
+        {
+          "resource": "repo://calc_app/core.py#L13-L67",
+          "version": "repo-lines-v1:sha256:0f116a4ae0e2ab14e8e64d11647500b0064ad7c1cb2d7c1b9db52e50485c79eb:eyJzZWxlY3RlZExpbmVDb3VudCI6NTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ4MWFhZDk0Zjc0Zjk0NGYyMmIwYmYxZTU5ZTQxOTgwNmE5YzkzYWY0YTBhZmExODYwZjgxYTFiNGQ5MWI5Y2YiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZjN2YwNmZlZGUxNDEyNDE4MzcwYWUwMjY3MjQyMTI5NDBhN2ZlZjRjYTNmMjk0MWVhODdlM2JjZDNlYTA1ZmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImJkN2NjZGEzNWI5ODgzODA1MDNmMTcxZTM0YTZiNjI0ZDJiNDcyODNkZjU2ZThmOTk3OWQzM2I3Mzg1ZjJhNmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM5Njc3YTNhMmZlMDFjNjRhMDAzMmQwMDNiNjYxMmYxYjIxZWZhZWMwMmU5Y2ZhZmMxNWUxZTZhNGY3NGVlNDAifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_4826237a26014780ad3f2c2e099d0ac8",
+      "statement": "Evaluation is limited to a whitelist of operators (+, -, *, /, %) and numeric literals, explicitly checking for runtime errors like division by zero.",
+      "evidence": [
+        {
+          "resource": "repo://calc_app/core.py#L69-L86",
+          "version": "repo-lines-v1:sha256:3420c7e6b304cbea437c4633b7a25544f66455bd3f36fb5bb6bbf03ee93c9d14:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjMjVmZWUwODgyYzBiNjkyNWU2MDFkOGFjMGM2YzgxYzFlYjgxMjU3ODQ0N2NhNzk5ZDYzNWVkODliYmU1MGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ5MDdlYzE4NzFlNGU4ODRmNzI1NWZhZjYyZDkyMDZjN2I4MjY5YjNlMjkxYWU1NTA3NjRiOWY2NzI0NDJlOGQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdjMWQ0MTQwZjEyYmY5MDhhNTZhYTI5MjdkMWUyYjIwMzM0Y2I4MDVmZGVlY2E0ZWUwMTVhNDg5MzU0MGUwNGYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_62cdce75d56a4a39a73d9af609c07643",
+      "statement": "A custom CalculationError exception is used to handle all evaluation-related failures, including syntax errors, unsupported operations, and runtime arithmetic errors.",
+      "evidence": [
+        {
+          "resource": "repo://calc_app/core.py#L9-L10",
+          "version": "repo-lines-v1:sha256:b6c99dda147781e16f617f10b5fab3c237b920f758f1e31787236b0ef583a1cb:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTFlODdhOWE3MzAzZjU2ZTg1YTk0ZjFiMTNhMDc1YjNmOWI5YmIwZDRhYWJjNmFjYjFkZTYxZDA5MWYxZDU1NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2UyODNiNWU1NDI0Njc5ZWI4N2FiZGQ0MmRhZTBmMzAzNDE0ZDczOGE4MGM5ZjEyOTNhM2ZmNjA5NzM5MzhkNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzdhY2M1NDJiYzYyMzU1ZWZmYmJkYjVhN2E4YzJjNjRmM2MxYWIwOTdkZWJkNjgxY2IyNjQxZWRhNzkwMTc1NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2E5MjEwZGFmMWI4NDA5MWQ2OTFlZGI3MjUyMzk3MGExY2FhMjFhZTM2Zjk4OTkzZTcwZjc3NjQxNDM3ZGNiOCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-03T13:40:46.570Z"
+  }
+}

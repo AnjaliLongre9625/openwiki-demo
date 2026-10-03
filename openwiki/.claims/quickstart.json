@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:1a26445031fa3cfc7c7da8994dd98c1b428270f43939137898b3cc2734a6cefc",
+  "claims": [
+    {
+      "id": "claim_22007a476b5043bcb5706069beb2c0da",
+      "statement": "The Calculator Enterprise Baseline project requires Python 3.10+ and uses standard virtual environments and pip-based dependency management as described in the README.",
+      "evidence": [
+        {
+          "resource": "repo://README.md#L36-L81",
+          "version": "repo-lines-v1:sha256:c19ad47cac014b5cea55203baaac70da372134a8ee522c43fc25c0d667a628ec:eyJzZWxlY3RlZExpbmVDb3VudCI6NDYsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImUxZDhiNDQzNGI0NjhlNWEzNWEyNmNkZGM2NTU3Y2RkM2QwMjJkN2ZiYTFkMjExNTVjZDllZjRmMjhjNjZjMGQiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjAxYmE0NzE5YzgwYjZmZTkxMWIwOTFhN2MwNTEyNGI2NGVlZWNlOTY0ZTA5YzA1OGVmOGY5ODA1ZGFjYTU0NmIiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjZmODFhMzEyMGU4YWM0MDcwNGU5Mzg4YWNiYmRiMWE3NjMzMTY5OTliNjRlMTNkZDFkZWU0NTY5M2E4ODNhMjIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjkxMzQzMzgyMTE2NDM0NDAzODQ1NDU2N2I0NTljNWU5ZmE0ZTk4MzA5MTVlNmU1MzNmNjcwMWE1Yjc5ZDRkMzYifQ"
+        }
+      ]
+    },
+    {
+      "id": "claim_bd54f2715c89404e9cd788dde769bc52",
+      "statement": "The project provides both a Tkinter-based GUI accessible via `python -m calc_app.ui` and a command-line interface accessible via `python -m calc_app.cli` for safe expression evaluation.",
+      "evidence": [
+        {
+          "resource": "repo://README.md#L84-L96",
+          "version": "repo-lines-v1:sha256:ad07a5ce8181e13bd2fd8546aa7230137b327695ed89b0a1a59c55dbfd4850f9:eyJzZWxlY3RlZExpbmVDb3VudCI6MTMsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjEyY2JjYjJmZTJkOWRiZjg3MzE5YjE3Y2IxNmQzOGIwMTczMWUwZGY3OWNjYzk2YzFlMzRiMzk0MGQ5NTIzMmMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ3YzA2YzU2MWQ1YzMyNzM0MzY4NTI2OGE0NmIzMzkxZjM5OThlZWU4OTBkMmJlNTFmMGQyMWNjNGE1M2FlNmQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImQ3ZmM0NjM2NjcwYmE4ODE4ZDE2OTJiNjllMThjYjYzNDQxMTQyZDQxODMwNWQ1MDYwOWViMTQ5YjcyNWJlYWMiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjA2MGJiMGUyNGI3OWRlZWFmNDdiYmViOWFhNWRhMDVhYTc2OTVhNGY1MWFmODI2NTQwOWI4MDBlYmNkZDVhYTAifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-03T13:40:46.570Z"
+  }
+}

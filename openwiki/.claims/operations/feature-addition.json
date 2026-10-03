@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:ba487968ebbd85ddec8db0e3355af8f05740480a9abd3940b16d76d3ce9f3870",
+  "claims": [
+    {
+      "id": "claim_b3a858103e6841058e87fa80eac33d0f",
+      "statement": "The Calculator class in calc_app/core.py provides an independent arithmetic engine using Python's ast module, intentionally decoupled from the GUI.",
+      "evidence": [
+        {
+          "resource": "repo://calc_app/core.py",
+          "version": "repo-file-v1:sha256:11d9f8dd2c631560fa835bfa21435a469a67fb617151bbdbe114c8d63feaad0e"
+        }
+      ]
+    },
+    {
+      "id": "claim_e4d27ceb48e44072a45f398e9c59398e",
+      "statement": "The CalculatorApp class in calc_app/ui.py manages the Tkinter UI and delegates math operations to the Calculator class.",
+      "evidence": [
+        {
+          "resource": "repo://calc_app/ui.py",
+          "version": "repo-file-v1:sha256:27af4b9c08cfe43530552571ac8576b128a971d7b7a754f58d7b0e0ed9f8a23d"
+        }
+      ]
+    },
+    {
+      "id": "claim_d64641029e284c74a4560dbbde82885e",
+      "statement": "Calculator.evaluate raises CalculationError for invalid expressions or math errors, which the UI layer catches to present an 'Error' state to the user.",
+      "evidence": [
+        {
+          "resource": "repo://calc_app/core.py#L9-L10",
+          "version": "repo-lines-v1:sha256:b6c99dda147781e16f617f10b5fab3c237b920f758f1e31787236b0ef583a1cb:eyJzZWxlY3RlZExpbmVDb3VudCI6MiwiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiMTFlODdhOWE3MzAzZjU2ZTg1YTk0ZjFiMTNhMDc1YjNmOWI5YmIwZDRhYWJjNmFjYjFkZTYxZDA5MWYxZDU1NSIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiM2UyODNiNWU1NDI0Njc5ZWI4N2FiZGQ0MmRhZTBmMzAzNDE0ZDczOGE4MGM5ZjEyOTNhM2ZmNjA5NzM5MzhkNiIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiNzdhY2M1NDJiYzYyMzU1ZWZmYmJkYjVhN2E4YzJjNjRmM2MxYWIwOTdkZWJkNjgxY2IyNjQxZWRhNzkwMTc1NiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiY2E5MjEwZGFmMWI4NDA5MWQ2OTFlZGI3MjUyMzk3MGExY2FhMjFhZTM2Zjk4OTkzZTcwZjc3NjQxNDM3ZGNiOCJ9"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-03T13:40:46.570Z"
+  }
+}

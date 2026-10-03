@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "pageVersion": "sha256:2266dfd50cbf85dad2b530adcca85c7a3064458be29f277a2829963e1319f518",
+  "claims": [
+    {
+      "id": "claim_b71a169d8fc94e9f8a4c32bb9c117e67",
+      "statement": "The Calculator class in calc_app/core.py serves as the engine, providing independent arithmetic evaluation and logic that is decoupled from any UI layer.",
+      "evidence": [
+        {
+          "resource": "repo://calc_app/core.py#L13-L15",
+          "version": "repo-lines-v1:sha256:2cf50a37830525169b799766874b9b6ba3ebbeede27c234fb62c7977ffe868f7:eyJzZWxlY3RlZExpbmVDb3VudCI6MywiZmlyc3RTZWxlY3RlZExpbmVIYXNoIjoiNDgxYWFkOTRmNzRmOTQ0ZjIyYjBiZjFlNTllNDE5ODA2YTljOTNhZjRhMGFmYTE4NjBmODFhMWI0ZDkxYjljZiIsImxhc3RTZWxlY3RlZExpbmVIYXNoIjoiMTNmNmEwYWE3ZjFjMzI1OTJkMWNjNWUxM2VhMjZmNDYyNTA2OGM5MDA4ZGYxZWZjOTNjOTMwODQ3MWI0ZGI4NCIsInByZWNlZGluZ0NvbnRleHRMaW5lQ291bnQiOjMsInByZWNlZGluZ0NvbnRleHRIYXNoIjoiYmQ3Y2NkYTM1Yjk4ODM4MDUwM2YxNzFlMzRhNmI2MjRkMmI0NzI4M2RmNTZlOGY5OTc5ZDMzYjczODVmMmE2YiIsImZvbGxvd2luZ0NvbnRleHRMaW5lQ291bnQiOjMsImZvbGxvd2luZ0NvbnRleHRIYXNoIjoiYjNlZGVjOGI0NmI4ZDM2ZmE3NDJkZDk4YjY1NGM5ZGNjYjg3OGRiMzM1MWFjZGY2NTgyNzdkYzdhYTgxYzc1ZSJ9"
+        }
+      ]
+    },
+    {
+      "id": "claim_4f96cbbd11f64b06b526c02c90ef5642",
+      "statement": "The application provides both CLI and GUI interfaces that interact with the Calculator core as distinct client layers.",
+      "evidence": [
+        {
+          "resource": "repo://calc_app/cli.py",
+          "version": "repo-file-v1:sha256:4b1912b0740bd7d3674549e28e00f5d92cc8da180635f487f24f2b5dbfccecf1"
+        },
+        {
+          "resource": "repo://calc_app/ui.py",
+          "version": "repo-file-v1:sha256:27af4b9c08cfe43530552571ac8576b128a971d7b7a754f58d7b0e0ed9f8a23d"
+        }
+      ]
+    },
+    {
+      "id": "claim_261bb57cedd0434db3569d0441b45c07",
+      "statement": "The Calculator core uses Python's ast module to safely parse and evaluate arithmetic expressions, isolating the application from insecure eval calls.",
+      "evidence": [
+        {
+          "resource": "repo://calc_app/core.py#L17-L35",
+          "version": "repo-lines-v1:sha256:b36a0240e66890173eb1fd006f16e8fc189553d6c22a8a90507cbd718623b0b8:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY4ODYxZWFlNDIxODRkM2MyNTU0ZTQ3NGIyOTE3NDVhYTNiYWRiM2RmNDAxZTI1NWRjZjc0ZGYzMWZhMWMwYTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc3M2ViMzdlZTRiMWE0MGMyNzFlMGFkZjE2ZDBkN2VhNThlZDA0ZWQ1ZTNmZTgyNjE1YzAwMGVkYmRjYzBjZTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRmMDlhYTM3NGE1NWYwNjE2MjIwYWIzOTc3ODdjMzQwNjljMGRjYjAyMWE5N2ViYzVkZTE0Mjg4MWVmOTQ1YWUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFmMzllZjg2ZDEzNTdkZGM1MzIxY2EyNjhkZDI0YTJhZmQyYTliZTQ1YWIyMTYwOGNhMGIzNzVlZGQwMzA1MzQifQ"
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "by": "openwiki/0.7.0",
+    "at": "2026-10-03T13:40:46.570Z"
+  }
+}
