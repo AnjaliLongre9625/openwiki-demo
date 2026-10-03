@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:ba487968ebbd85ddec8db0e3355af8f05740480a9abd3940b16d76d3ce9f3870",
+  "pageVersion": "sha256:48835f81339c103942aa0488bf6e83d42a38cbae6ea699865f5e21f25613a0d9",
   "claims": [
     {
       "id": "claim_b3a858103e6841058e87fa80eac33d0f",
-      "statement": "The Calculator class in calc_app/core.py provides an independent arithmetic engine using Python's ast module, intentionally decoupled from the GUI.",
+      "statement": "The Calculator class in calc_app/core.py provides an independent arithmetic engine using Python's ast module, intentionally decoupled from the GUI, supporting expression evaluation and state transformations.",
       "evidence": [
         {
           "resource": "repo://calc_app/core.py",
-          "version": "repo-file-v1:sha256:11d9f8dd2c631560fa835bfa21435a469a67fb617151bbdbe114c8d63feaad0e"
+          "version": "repo-file-v1:sha256:9c3a229a2721c093a40afb844af01781abadfc84c049167cf360536480e24c65"
         }
       ]
     },
@@ -35,6 +35,6 @@
   ],
   "verification": {
     "by": "openwiki/0.7.0",
-    "at": "2026-10-03T13:40:46.570Z"
+    "at": "2026-10-03T13:58:55.877Z"
   }
 }

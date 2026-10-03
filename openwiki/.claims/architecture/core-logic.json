@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:4d8e7c7aec3ac83033410011cd55f9c54a7d15794d74c96ddf43733ea00fabe0",
+  "pageVersion": "sha256:bf06ecb50bd4052d7f41217ce282c72b2dec8427c5b549d2cda64cd0d43af3cc",
   "claims": [
     {
       "id": "claim_894f1deefe8f4fe9aee981e631113684",
-      "statement": "The Calculator class provides a UI-agnostic engine that evaluates mathematical expressions by parsing them into a restricted Abstract Syntax Tree (AST) and recursively traversing the tree.",
+      "statement": "The Calculator class provides a UI-agnostic engine that evaluates mathematical expressions by parsing them into a restricted Abstract Syntax Tree (AST) and recursively traversing the tree. It explicitly supports addition, subtraction, multiplication, division, modulo, and power operations.",
       "evidence": [
         {
           "resource": "repo://calc_app/core.py#L13-L67",
-          "version": "repo-lines-v1:sha256:0f116a4ae0e2ab14e8e64d11647500b0064ad7c1cb2d7c1b9db52e50485c79eb:eyJzZWxlY3RlZExpbmVDb3VudCI6NTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ4MWFhZDk0Zjc0Zjk0NGYyMmIwYmYxZTU5ZTQxOTgwNmE5YzkzYWY0YTBhZmExODYwZjgxYTFiNGQ5MWI5Y2YiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZjN2YwNmZlZGUxNDEyNDE4MzcwYWUwMjY3MjQyMTI5NDBhN2ZlZjRjYTNmMjk0MWVhODdlM2JjZDNlYTA1ZmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImJkN2NjZGEzNWI5ODgzODA1MDNmMTcxZTM0YTZiNjI0ZDJiNDcyODNkZjU2ZThmOTk3OWQzM2I3Mzg1ZjJhNmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM5Njc3YTNhMmZlMDFjNjRhMDAzMmQwMDNiNjYxMmYxYjIxZWZhZWMwMmU5Y2ZhZmMxNWUxZTZhNGY3NGVlNDAifQ"
+          "version": "repo-lines-v1:sha256:5b1491a8f9f9f068987ae776f94f496becf6859f6467e633301505e46371153a:eyJzZWxlY3RlZExpbmVDb3VudCI6NTUsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ4MWFhZDk0Zjc0Zjk0NGYyMmIwYmYxZTU5ZTQxOTgwNmE5YzkzYWY0YTBhZmExODYwZjgxYTFiNGQ5MWI5Y2YiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjZjN2YwNmZlZGUxNDEyNDE4MzcwYWUwMjY3MjQyMTI5NDBhN2ZlZjRjYTNmMjk0MWVhODdlM2JjZDNlYTA1ZmEiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImJkN2NjZGEzNWI5ODgzODA1MDNmMTcxZTM0YTZiNjI0ZDJiNDcyODNkZjU2ZThmOTk3OWQzM2I3Mzg1ZjJhNmIiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImM5Njc3YTNhMmZlMDFjNjRhMDAzMmQwMDNiNjYxMmYxYjIxZWZhZWMwMmU5Y2ZhZmMxNWUxZTZhNGY3NGVlNDAifQ"
         }
       ]
     },
     {
       "id": "claim_4826237a26014780ad3f2c2e099d0ac8",
-      "statement": "Evaluation is limited to a whitelist of operators (+, -, *, /, %) and numeric literals, explicitly checking for runtime errors like division by zero.",
+      "statement": "Evaluation is limited to a whitelist of operators (+, -, *, /, %, **) and numeric literals, explicitly checking for runtime errors like division by zero or modulo by zero.",
       "evidence": [
         {
-          "resource": "repo://calc_app/core.py#L69-L86",
-          "version": "repo-lines-v1:sha256:3420c7e6b304cbea437c4633b7a25544f66455bd3f36fb5bb6bbf03ee93c9d14:eyJzZWxlY3RlZExpbmVDb3VudCI6MTgsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjMjVmZWUwODgyYzBiNjkyNWU2MDFkOGFjMGM2YzgxYzFlYjgxMjU3ODQ0N2NhNzk5ZDYzNWVkODliYmU1MGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ5MDdlYzE4NzFlNGU4ODRmNzI1NWZhZjYyZDkyMDZjN2I4MjY5YjNlMjkxYWU1NTA3NjRiOWY2NzI0NDJlOGQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdjMWQ0MTQwZjEyYmY5MDhhNTZhYTI5MjdkMWUyYjIwMzM0Y2I4MDVmZGVlY2E0ZWUwMTVhNDg5MzU0MGUwNGYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
+          "resource": "repo://calc_app/core.py#L69-L88",
+          "version": "repo-lines-v1:sha256:b655f83e9155f5ed7d198ef4065f1986df49d3278427a9d2b6c9859119cc99ac:eyJzZWxlY3RlZExpbmVDb3VudCI6MjAsImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6IjFjMjVmZWUwODgyYzBiNjkyNWU2MDFkOGFjMGM2YzgxYzFlYjgxMjU3ODQ0N2NhNzk5ZDYzNWVkODliYmU1MGEiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6IjQ5MDdlYzE4NzFlNGU4ODRmNzI1NWZhZjYyZDkyMDZjN2I4MjY5YjNlMjkxYWU1NTA3NjRiOWY2NzI0NDJlOGQiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6IjdjMWQ0MTQwZjEyYmY5MDhhNTZhYTI5MjdkMWUyYjIwMzM0Y2I4MDVmZGVlY2E0ZWUwMTVhNDg5MzU0MGUwNGYiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjowLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6ImUzYjBjNDQyOThmYzFjMTQ5YWZiZjRjODk5NmZiOTI0MjdhZTQxZTQ2NDliOTM0Y2E0OTU5OTFiNzg1MmI4NTUifQ"
         }
       ]
     },
@@ -35,6 +35,6 @@
   ],
   "verification": {
     "by": "openwiki/0.7.0",
-    "at": "2026-10-03T13:40:46.570Z"
+    "at": "2026-10-03T13:58:55.877Z"
   }
 }

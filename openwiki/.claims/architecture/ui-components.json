@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:3859cea168a0be394c29ae9a625950c4fd4c846f80b51abff5e3008db215b620",
+  "pageVersion": "sha256:3ad10840b7bbe3bced86d399ce0da9a2463a50a9fa473a6f5a1a72ee97a31f70",
   "claims": [
     {
       "id": "claim_a70927fa17a34b73b0c6f5b2754d12ea",
@@ -24,17 +24,25 @@
     },
     {
       "id": "claim_aec4c8380dd54de593c35005b43e0b60",
-      "statement": "Both UI and CLI interfaces maintain a clean separation of concerns by delegating calculation, validation, and expression management entirely to the Calculator class.",
+      "statement": "Both CLI and UI modules maintain a strict separation of concerns by delegating all arithmetic computation, expression validation, and internal state management to the Calculator core, while interfaces focus solely on lifecycle, event handling, and user interaction.",
       "evidence": [
         {
+          "resource": "repo://calc_app/cli.py",
+          "version": "repo-file-v1:sha256:4b1912b0740bd7d3674549e28e00f5d92cc8da180635f487f24f2b5dbfccecf1"
+        },
+        {
           "resource": "repo://calc_app/core.py",
-          "version": "repo-file-v1:sha256:11d9f8dd2c631560fa835bfa21435a469a67fb617151bbdbe114c8d63feaad0e"
+          "version": "repo-file-v1:sha256:9c3a229a2721c093a40afb844af01781abadfc84c049167cf360536480e24c65"
+        },
+        {
+          "resource": "repo://calc_app/ui.py",
+          "version": "repo-file-v1:sha256:27af4b9c08cfe43530552571ac8576b128a971d7b7a754f58d7b0e0ed9f8a23d"
         }
       ]
     }
   ],
   "verification": {
     "by": "openwiki/0.7.0",
-    "at": "2026-10-03T13:40:46.570Z"
+    "at": "2026-10-03T13:58:55.877Z"
   }
 }

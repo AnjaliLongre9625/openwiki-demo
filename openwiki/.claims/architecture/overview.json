@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pageVersion": "sha256:2266dfd50cbf85dad2b530adcca85c7a3064458be29f277a2829963e1319f518",
+  "pageVersion": "sha256:de579dd9076e103f293a18e4e3df674e47a09dae56f7939228db589fbd4f4889",
   "claims": [
     {
       "id": "claim_b71a169d8fc94e9f8a4c32bb9c117e67",
@@ -28,17 +28,17 @@
     },
     {
       "id": "claim_261bb57cedd0434db3569d0441b45c07",
-      "statement": "The Calculator core uses Python's ast module to safely parse and evaluate arithmetic expressions, isolating the application from insecure eval calls.",
+      "statement": "The Calculator core uses Python's ast module to recursively parse and evaluate arithmetic expressions, isolating the application from insecure eval calls.",
       "evidence": [
         {
           "resource": "repo://calc_app/core.py#L17-L35",
-          "version": "repo-lines-v1:sha256:b36a0240e66890173eb1fd006f16e8fc189553d6c22a8a90507cbd718623b0b8:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY4ODYxZWFlNDIxODRkM2MyNTU0ZTQ3NGIyOTE3NDVhYTNiYWRiM2RmNDAxZTI1NWRjZjc0ZGYzMWZhMWMwYTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc3M2ViMzdlZTRiMWE0MGMyNzFlMGFkZjE2ZDBkN2VhNThlZDA0ZWQ1ZTNmZTgyNjE1YzAwMGVkYmRjYzBjZTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRmMDlhYTM3NGE1NWYwNjE2MjIwYWIzOTc3ODdjMzQwNjljMGRjYjAyMWE5N2ViYzVkZTE0Mjg4MWVmOTQ1YWUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFmMzllZjg2ZDEzNTdkZGM1MzIxY2EyNjhkZDI0YTJhZmQyYTliZTQ1YWIyMTYwOGNhMGIzNzVlZGQwMzA1MzQifQ"
+          "version": "repo-lines-v1:sha256:398eb86859c15e5caa2748cd108ccfa7537218dd54c076ad326d1ae2a867d950:eyJzZWxlY3RlZExpbmVDb3VudCI6MTksImZpcnN0U2VsZWN0ZWRMaW5lSGFzaCI6ImY4ODYxZWFlNDIxODRkM2MyNTU0ZTQ3NGIyOTE3NDVhYTNiYWRiM2RmNDAxZTI1NWRjZjc0ZGYzMWZhMWMwYTMiLCJsYXN0U2VsZWN0ZWRMaW5lSGFzaCI6Ijc3M2ViMzdlZTRiMWE0MGMyNzFlMGFkZjE2ZDBkN2VhNThlZDA0ZWQ1ZTNmZTgyNjE1YzAwMGVkYmRjYzBjZTAiLCJwcmVjZWRpbmdDb250ZXh0TGluZUNvdW50IjozLCJwcmVjZWRpbmdDb250ZXh0SGFzaCI6ImRmMDlhYTM3NGE1NWYwNjE2MjIwYWIzOTc3ODdjMzQwNjljMGRjYjAyMWE5N2ViYzVkZTE0Mjg4MWVmOTQ1YWUiLCJmb2xsb3dpbmdDb250ZXh0TGluZUNvdW50IjozLCJmb2xsb3dpbmdDb250ZXh0SGFzaCI6IjFmMzllZjg2ZDEzNTdkZGM1MzIxY2EyNjhkZDI0YTJhZmQyYTliZTQ1YWIyMTYwOGNhMGIzNzVlZGQwMzA1MzQifQ"
         }
       ]
     }
   ],
   "verification": {
     "by": "openwiki/0.7.0",
-    "at": "2026-10-03T13:40:46.570Z"
+    "at": "2026-10-03T13:58:55.877Z"
   }
 }

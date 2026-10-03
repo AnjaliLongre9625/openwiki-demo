@@ -3,9 +3,6 @@ type: documentation
 title: Quickstart
 description: An introduction to the Calculator Enterprise Baseline project with steps for local environment setup, execution, and testing.
 tags: [getting-started, setup, installation, usage]
-verified:
-  - by: openwiki/0.7.0
-    at: 2026-10-03T13:40:46.570Z
 sources:
   - id: openwiki-source-23775c3de52f3ab95a13cb8b
     resource: repo://README.md

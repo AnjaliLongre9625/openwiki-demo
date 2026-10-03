@@ -5,7 +5,7 @@ description: Details the core arithmetic evaluation mechanism of the calculator,
 tags: [architecture, core, evaluation, parser]
 verified:
   - by: openwiki/0.7.0
-    at: 2026-10-03T13:40:46.570Z
+    at: 2026-10-03T13:58:55.877Z
 sources:
   - id: openwiki-source-c6a07b2614cdc2c84675e756
     resource: repo://calc_app/core.py
