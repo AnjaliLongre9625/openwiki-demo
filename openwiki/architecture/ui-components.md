@@ -11,9 +11,6 @@ sources:
   - id: openwiki-source-ed2dc92a5cc96cd18b8ce106
     resource: repo://calc_app/ui.py
 generated: { by: "openwiki/0.7.0", at: "2026-10-03T13:58:55.877Z" }
-verified:
-  - by: openwiki/0.7.0
-    at: 2026-10-03T13:58:55.877Z
 ---
 
 The calculator application provides two distinct user interfaces that interact with the core calculation logic: a command-line interface (CLI) and a graphical user interface (GUI). 

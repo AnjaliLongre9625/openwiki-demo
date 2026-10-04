@@ -3,9 +3,6 @@ type: guide
 title: Feature Addition Guide
 description: Step-by-step instructions for extending the calculator core logic or user interface safely.
 tags: [operations, development, calculator]
-verified:
-  - by: openwiki/0.7.0
-    at: 2026-10-03T13:58:55.877Z
 sources:
   - id: openwiki-source-c6a07b2614cdc2c84675e756
     resource: repo://calc_app/core.py

@@ -3,9 +3,6 @@ type: guide
 title: Testing Guide
 description: Learn how to run the existing test suite and contribute new tests to the calculator application.
 tags: [testing, development, python, pytest]
-verified:
-  - by: openwiki/0.7.0
-    at: 2026-10-03T13:58:55.877Z
 sources:
   - id: openwiki-source-23775c3de52f3ab95a13cb8b
     resource: repo://README.md

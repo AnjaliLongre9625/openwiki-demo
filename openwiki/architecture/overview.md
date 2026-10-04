@@ -3,9 +3,6 @@ type: architecture
 title: Architecture Overview
 description: A high-level overview of the calculator application, describing the interaction between the core logic and interface layers.
 tags: [architecture, calculator, python]
-verified:
-  - by: openwiki/0.7.0
-    at: 2026-10-03T13:58:55.877Z
 sources:
   - id: openwiki-source-8d788d289cb7a8229c5c0a78
     resource: repo://calc_app/cli.py

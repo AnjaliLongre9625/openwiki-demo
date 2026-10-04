@@ -5,11 +5,11 @@ description: Details the core arithmetic evaluation mechanism of the calculator,
 tags: [architecture, core, evaluation, parser]
 verified:
   - by: openwiki/0.7.0
-    at: 2026-10-03T13:58:55.877Z
+    at: 2026-10-04T07:56:56.761Z
 sources:
   - id: openwiki-source-c6a07b2614cdc2c84675e756
     resource: repo://calc_app/core.py
-generated: { by: "openwiki/0.7.0", at: "2026-10-03T13:40:46.570Z" }
+generated: { by: "openwiki/0.7.0", at: "2026-10-04T07:56:56.761Z" }
 ---
 
 # Core Calculation Logic
@@ -42,7 +42,7 @@ The evaluator supports a subset of standard arithmetic operations to minimize se
 
 *   **Literals**: Numeric values (integers and floats).
 *   **Unary Operators**: `+` (positive), `-` (negative).
-*   **Binary Operators**: `+` (addition), `-` (subtraction), `*` (multiplication), `/` (division), `%` (modulo).
+*   **Binary Operators**: `+` (addition), `-` (subtraction), `*` (multiplication), `/` (division), `%` (modulo), `**` (exponentiation).
 
 ## Error Handling
 
