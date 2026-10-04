@@ -5,8 +5,8 @@
       "pageVersion": "sha256:c4c43694356e7ccec5ad4b3d7c9218affbae2d7043c57dbab428d0a818fa1511",
       "completedBy": "openwiki/0.7.0",
       "completedRunId": "c84a472f-08cb-4a13-8eaa-452c6295a2fd",
-      "gitHead": "176cc2b82de20e0de3212300e5e49b2b5d432225",
-      "sourceFingerprint": "sha256:650fbbba0923a332dacdda6b2d20fdbae08d113257bf1d7e6b3c054a29d6d722"
+      "gitHead": "297738e5350804c41322f8795d8d49f016de75d4",
+      "sourceFingerprint": "sha256:4b1d727d49a66ef031d2d662569bfaa1cb84745f4c49133e2c75821a47d4f5f6"
     },
     "/openwiki/architecture/overview.md": {
       "gitHead": "4231756c01a1e2351b6f427775eaced834e9e9e1",
